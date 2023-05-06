@@ -35,14 +35,17 @@ export default function Home() {
         `}
       </Script>
       <main className={styles.main}>
-        <Image src={'/Bcloud-logo.png'} width="300" height="60" alt="Bcloud logo" />
+       
         <h1 className='text-slate-700 font-bold text-2xl mb-12 flex items-center gap-3 dark:text-slate-400'><Image src={'/logo.png'} width="32" height="32" alt="MagickPen logo" /> AI 法律助手</h1>
+        <p></p>
+           <Image src={'/Bcloud-logo.png'} width="300" height="60" alt="Bcloud logo" />
+          <p></p>
         <div className={styles.center}>
           <SearchDialog />
         </div>
 
         
-
+<p></p><p></p><p></p><p></p><p></p><p></p>
         <div className="py-10 w-full md:flex items-center justify-center md:space-x-6">
           <div className="flex items-center justify-center space-x-6 mt-4 md:m-0">
             <div className="opacity-75 transition hover:opacity-100 cursor-pointer">
