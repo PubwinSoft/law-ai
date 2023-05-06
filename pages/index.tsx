@@ -12,10 +12,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>AI 法律助手</title>
+        <title>AI 法律助手 - Bcloud.Store</title>
         <meta
           name="description"
-          content="AI 法律助手"
+          content="AI 法律助手 - Bcloud.Store"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -35,6 +35,7 @@ export default function Home() {
         `}
       </Script>
       <main className={styles.main}>
+        <Image src={'/Bcloud-logo.png'} width="300" height="60" alt="Bcloud logo" />
         <h1 className='text-slate-700 font-bold text-2xl mb-12 flex items-center gap-3 dark:text-slate-400'><Image src={'/logo.png'} width="32" height="32" alt="MagickPen logo" /> AI 法律助手</h1>
         <div className={styles.center}>
           <SearchDialog />
