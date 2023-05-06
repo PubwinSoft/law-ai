@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>AI 法律助手 - Bcloud.Store</title>
+        <title> AI 法律助手 - Bcloud.Store</title>
         <meta
           name="description"
           content="AI 法律助手 - Bcloud.Store"
